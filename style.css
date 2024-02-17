@@ -33,7 +33,7 @@ section {
   height: 100%;
   object-fit: contain;
 }
-h1 {
+.banner h1 {
   font-size: 40px;
   font-weight: 900;
   line-height: 46.96px;
@@ -79,17 +79,6 @@ h2{
   text-transform: uppercase;
   color: #33A8DB;
 }
-#course-content .modules-list .module {
-  color: white;
-  width: 535px;
-  height: 51px;
-  margin: 0 auto 24px;
-  border: 1px solid #33A8DB;
-  background-color: #252525;
-  padding: 16px, 127px, 16px, 127px;
-  border-radius: 100px;
-  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
-}
 
 #transform-world {
   height: 560px;
@@ -99,17 +88,53 @@ h2{
   border: 1px 0px solid #33A8DB80;
   padding: 200px;
 }
-
 #transform-world p {
   font-size: 40px;
   font-weight:900;
   line-height:46.96px;
   height: 141px;
   width: 244px;
-  text-align: right;
+  text-align: center;
   color: #FFFFFF;
   text-shadow: 3px 2px #33A8DB;
+
 }
+#professional-challenges {
+  text-align: center;
+  width: 800px;
+}
+#professional-challenges img {
+  margin: 32px 0;
+  width: 659px;
+  height: 419px;
+  top: 1685px;
+  left: 390px;
+}
+#course-content {
+  width: 800px;
+  text-align: center;
+}
+
+#course-content .modules-list {
+  margin: 24px 0;
+  text-align: center;
+}
+
+#course-content .modules-list .module {
+  color: white;
+  width: 530px;
+  margin: 0 auto 24px;
+  border: 1px solid #33A8DB;
+  background-color: #252525;
+  padding: 16px;
+  border-radius: 100px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#course-content .modules-list .module span {
+  color: #33A8DB;
+}
+
 
 .dio-logo {
   width: 310px;
@@ -126,11 +151,9 @@ footer {
   background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
   border-top: 1px solid #33A8DB80;
 }
-
 footer .dio-logo {
   width: 300px;
 }
-
 footer a {
   color: #33A8DB;
   font-weight: bold;
