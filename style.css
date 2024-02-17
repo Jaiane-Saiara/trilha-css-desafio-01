@@ -1,1 +1,52 @@
 @import url('reset.css');
+
+p {
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 46.96px;
+  height: 47px;
+  width: 434px;
+  text-transform: uppercase;
+  text-align: center;
+  color: transparent;
+}
+.banner .banner-content button {
+  color: #31A8DD;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  height: 19px;
+  width: 234px;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-image: linear-gradient(#3BA1CD, #1572B7);
+  border-image-slice: 10;
+  border-radius: 30px;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  height: 38px;
+  width: 477px;
+  letter-spacing: 4px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  color: #33A8DB;
+}
+
+#transform-world p {
+  font-size: 40px;
+  font-weight:900;
+  line-height:46.96px;
+  height: 141px;
+  width: 244px;
+  color: #FFFFFF;
+  text-shadow: 3px 2px #33A8DB;
+}
